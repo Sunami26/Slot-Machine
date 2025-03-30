@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    /* Impressive Gradient Background */
+    background: linear-gradient(135deg, #1190cb, #011024);
+    background-attachment: fixed; /* Keep background fixed during scroll */
+    color: white; /* Set default text color to white for better contrast */
+}
+
+/* Rest of the styles remain the same */
+
+.slot-machine {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+    color: #333; /* Change text color inside the slot machine */
+}
+
+.reel {
+    width: 100px;
+    height: 120px;
+    border: 2px solid #ddd;
+    display: inline-block;
+    margin: 10px;
+    line-height: 120px;
+    font-size: 2.5em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#spin-button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#spin-button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
